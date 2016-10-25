@@ -1,0 +1,113 @@
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+.edge {
+  background-color: #4a4a4a;
+  /*border-style: ridge;*/
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #888888;
+  background: #4a4a4a;
+  background: -webkit-linear-gradient(left top, #4a4a4a, #262626); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4a4a4a, #262626); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4a4a4a, #262626); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4a4a4a, #262626); /* Standard syntax */
+  margin: 50px auto;
+  width:380px;
+  height:480px;
+}
+.input-container {
+  background-color: #e6e6e6;
+  border-style: ridge;
+  border-radius: 5px;
+  margin: 10px auto;
+  text-align:right;
+  width:80%;
+  height:50px;
+}
+#input-screen {
+  font-size:1.50em;
+  font-family: tahoma;
+  width:100%;
+  height:60%;
+}
+.input-review-wrap {
+  width:100%;
+  height:30%;
+
+}
+#input-review {
+  font-size:0.80em;
+  font-family: tahoma;
+  float:right;
+  text-align:right;
+  width:auto;
+  height:100%;
+  /*overflow:hidden;*/
+}
+#mem-stat {
+  color: #ff704d;
+  float:right;
+  margin-right:30px;
+}
+span {
+  margin-left: 30px;
+}
+.button-container {
+  border-radius: 3px;
+  position:relative;
+  margin: 20px auto;
+  height: 65%;
+  width:80%;
+  border-style:ridge;
+}
+.btn-wrap {
+  text-align: center;
+  float:left;
+  height:16.66%;
+  width:20%;
+}
+.btn-equal-wrap {
+  /*border-style:dotted;*/
+  text-align: center;
+  position:absolute;
+  right:2px;
+  bottom:0;
+  width: 19%;
+  height:35%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+button {
+  border-radius: 10px;
+  font-family: tahoma;
+  font-weight: bold;
+  margin-top:5px;
+  height:85%;
+  width:85%;
+  background: #f2f2f2; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #f2f2f2, #a6a6a6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #f2f2f2, #a6a6a6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #f2f2f2, #a6a6a6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #f2f2f2, #a6a6a6); /* Standard syntax */
+
+}
+button:focus {
+  outline:0;
+}
+.btn-zero-wrap {
+  width:40%;
+}
+.btn-zero, .btn-equal {
+  width:95%;
+}
+body {
+  background: #ebebe0; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ebebe0, #d7d7c1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ebebe0, #d7d7c1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ebebe0, #d7d7c1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ebebe0, #d7d7c1); /* Standard syntax */
+}
